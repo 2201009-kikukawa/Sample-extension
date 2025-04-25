@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: demo-deploy
+        working-directory: sample
 
     steps:
       - name: Checkout
