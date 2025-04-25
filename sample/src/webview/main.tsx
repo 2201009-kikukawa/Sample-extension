@@ -7,7 +7,7 @@ const main = () => {
 
   return (
     <>
-      <VSCodeButton onClick={(e) => setText("ボタンがクリックされました")}>ボタン</VSCodeButton>
+      <VSCodeButton onClick={(e) => setText("ボタンがクリックされました")}>ぼたん</VSCodeButton>
       <div>{text}</div>
     </>
   );
