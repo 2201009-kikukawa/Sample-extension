@@ -3,6 +3,11 @@
   "displayName": "sample displayName",
   "description": "sample description",
   "version": "0.0.1",
+  "publisher": "VS-Modules",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2201009-kikukawa/Sample-extension"
+  },
   "engines": {
     "vscode": "^1.93.1"
   },
