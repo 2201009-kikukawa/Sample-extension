@@ -36,12 +36,11 @@
     }
   },
   "scripts": {
-    "vscode:prepublish": "npm run package",
+    "vscode:prepublish": "NODE_ENV=production node ./esbuild.js",
     "compile": "node ./esbuild.js",
+    "package": "vsce package",
     "watch": "node ./esbuild.js --watch",
-    "lint": "eslint src --ext ts",
-    "test": "node ./out/test/extension.test.js",
-    "package": "vsce package"
+    "lint": "eslint src --ext ts"
   },
   "devDependencies": {
     "@types/glob": "^8.0.0",
