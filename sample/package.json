@@ -36,7 +36,7 @@
     }
   },
   "scripts": {
-    "vscode:prepublish": "NODE_ENV=production node ./esbuild.js",
+    "vscode:prepublish": "npm run compile",
     "compile": "node ./esbuild.js",
     "package": "vsce package",
     "watch": "node ./esbuild.js --watch",
